@@ -1,0 +1,202 @@
+			body{
+				margin:0;
+				padding:0;
+			}
+
+			/**** CONTAINER WITH LOGOs ****/
+			.container{
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%, -50%);
+				border-radius:10%;
+				box-shadow:0 0 5px 0 #000;
+				width:210px;
+				height:150px;
+			}
+				a{
+				margin:0;
+				padding:0;
+				text-decoration: none;
+				color:white;
+			}
+			/**** FACEBOOK LOGO ****/
+			.fbook{
+				margin:15px;
+				width:50px;
+				height:50px;
+				background-color:#7198d6;
+				border-radius:13%;
+				 -webkit-border-radius:10%;
+				font-family:segoe UI, Helvetica, arial;
+				position:relative;
+			}
+			.fbook:hover{
+				box-shadow:1px 1px 10px 0px #134596;
+			}
+			.fbook p{
+				margin:0;
+				padding:0;
+				position:absolute;
+				top:-8px;
+				left:24px;
+				font-weight:bold;
+				font-size:53px;
+			}
+			/**** LinkedIn LOGO ****/
+			.linked{
+				margin:15px;
+				width:50px;
+				height:50px;
+				background-color:#5491af;
+				border-radius: 13%;
+				color:white;
+				font-size:50px;
+				font-weight:bold;
+				position: relative;
+				left:70px;
+				top:-65px;
+			}
+			.linked p{
+				position:absolute;
+				bottom:-58px;
+				left:2px;
+				font-family:segoe UI, Helvetica, arial;
+			}
+			.linked:hover{
+				box-shadow:1px 1px 10px 0px #2b4c5b;
+			}
+				/* top left:#8419ff  bottom left: #ffe502	right: #ff2845	*/
+
+
+			/**** MUSIC1 LOGO ****/
+			.music{
+				width:50px;
+				height:50px;
+				margin:15px;
+				background:linear-gradient(to bottom, pink, red, orange);
+				border-radius:13%;
+				font-size:50px;
+				position: relative;
+				left:0px;
+				top:-65px;
+			}
+			.music p{
+				display:inline;
+				position:absolute;
+				bottom:-54px;
+				left:6px;
+			}
+			.music:hover{
+				box-shadow:1px 1px 10px 0px red;
+			}
+
+			/**** MMUSIC2 LOGO ****/
+			.music2{
+				width:47px;
+				height:47px;
+				margin:15px;
+				position:relative;
+				font-size:48px;
+				border-radius:13%;
+				border:1px solid #fff;
+				background-color:white;
+				box-shadow:1px 1px 10px 0px #333;
+				left:70px;
+				top:-130px;
+			}
+			.music2:hover{
+				box-shadow:1px 1px 15px 0px #000;
+			}
+			.music2 p{
+				position: absolute;
+				bottom:-49px;
+				left:6px;
+				font-weight:bold;
+				background:-webkit-linear-gradient(90deg, red, blue);
+					-webkit-background-clip:text;
+					-webkit-text-fill-color: transparent;
+			}
+
+			/**** INSTAGRAM LOGO ****/
+
+			.container2{
+				width:50px;
+				height:50px;
+				background:linear-gradient(190deg, blue, #8900d3, #c619c6, #ff2370, #f7eb09);
+				border-radius:13%;
+				position:relative;
+				left:150px;
+				top:-259px;
+				box-shadow:0 0 15px 0px #999;
+			}
+			.container2:hover{
+				box-shadow:0 0 10px 0px #000;
+			}
+			.insta{
+				border:3px solid white;
+				border-radius:20%;
+				width:34px;
+				height:34px;
+				position:absolute;
+				right:5px;
+				top:5px;
+			}
+			.circle{
+				border:3px solid white;
+				width:16px;
+				height:16px;
+				border-radius:50%;
+				position:absolute;
+				bottom:6px;
+				left:6px;
+			}
+			.dot{
+				border:1px solid white;
+				border-radius:50%;
+				background-color:white;
+				width:2px;
+				height:1px;
+				position:absolute;
+				right:-5px;
+				top:-4px;
+			}
+
+			/**** GOOGLE LOGO (before and after practice) ****/
+			.google{
+				width:36px;
+				height:36px;
+				position:absolute;
+				top:78px;
+				left:145px;
+				border-radius:50%;
+				border-top:10px solid #bf030d;
+				border-right:10px solid #4a83e0;
+				border-bottom:10px solid #3c932f;
+				border-left:10px solid #e0bb04;
+			}
+			.google:hover{
+				box-shadow:0 0 10px 0 #4a83e0;
+			}
+			.google::before{
+				content:'';
+				position:absolute;
+				top:-6px;
+				left:30px;
+				border-top:20px solid transparent;
+				border-right:20px solid #fff;
+				border-bottom:20px solid transparent;
+				border-left:20px solid transparent;
+				transform:rotate(222deg);
+			}
+			.google::after{
+				content:'';
+				position:absolute;
+				top:14px;
+				left:-5px;
+				border-right:21px solid #4a83e0;
+				border-top-right-radius:2px;
+				border-bottom-right-radius:20px;
+				width:30px;
+				height:10px;	
+			}
