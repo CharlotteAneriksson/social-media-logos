@@ -1,4 +1,8 @@
-# Logos
-Playing around with logos/ positioning/ pseudo classes
+# social-media-logos
 
-Playing around with position and pseudo classes ::before / ::after....
+Playing around social media logos in code,
+technologies HTML5, CSS3 - positioning, pseudo classes ::before / ::after
+
+## live publish
+Check it out:  https://charlotteaneriksson.github.io/social-media-logos/
+
